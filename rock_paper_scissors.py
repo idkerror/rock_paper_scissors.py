@@ -6,7 +6,7 @@ tie = 0
 options = ["rock", "paper", "scissors"]
 
 while True:
-    user_input = input("Type Rock, Paper, Scissors or Q for quit.").lower()
+    user_input = input("Type Rock, Paper, Scissors or Q for quit: ").lower()
     if user_input == "q":
         break
 
